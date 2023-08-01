@@ -5,6 +5,8 @@ body {
   background-color: #eee;
 }
 .loader {
+  margin: 20% 50%;
+  transform: translateX(-50%);
   font-size: 68px;
   color: #000;
   display: inline-block;
