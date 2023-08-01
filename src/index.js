@@ -1,5 +1,4 @@
 import { Report } from 'notiflix/build/notiflix-report-aio';
-import SlimSelect from 'slim-select';
 import { fetchBreeds, fetchCatByBreed } from './js/cat-api';
 import { createMarkup, createMarkupCat } from './js/template/createMarkup';
 import refs from './js/refs';
