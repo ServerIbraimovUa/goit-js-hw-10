@@ -15,6 +15,7 @@ function onValueId(e) {
   const id = e.target.value;
   fetchCatByBreed(id)
     .then(obj => {
+      load();
       return (refs.catInfoEl.innerHTML = createMarkupCat(obj.data));
     })
     .catch(fetchError);
